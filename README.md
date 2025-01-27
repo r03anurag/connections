@@ -1,5 +1,5 @@
 # connections
-A web application/game like NYT's [Connections](https://www.nytimes.com/games/connections), but with [Wikipedia](https://www.wikipedia.org/)categories. Refer to the link to [Connections](https://www.nytimes.com/games/connections) to get an idea of the rules and
+A web application/game like NYT's [Connections](https://www.nytimes.com/games/connections), but with [Wikipedia] (https://www.wikipedia.org/)categories. Refer to the link to [Connections](https://www.nytimes.com/games/connections) to get an idea of the rules and
 nuances of this game. To be honest, this version of the game is pretty easy, but I figured it'd be neat to try it out and 
 get experience with Web Dev skills. 
 
