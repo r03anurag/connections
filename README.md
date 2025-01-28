@@ -13,7 +13,7 @@ over, and you will have to start another game. Hopefully, you enjoy this unique 
 # Getting Started
 
 ## Dependencies
-* All necessary Python libraries are installed when starting the backend server (see [Running the code](##Running-the-code) section)
+* All necessary Python libraries are installed when starting the backend server (see [Running the code](#running-the-code) section)
 * Make sure to install [node.js](https://nodejs.org/en/download/current).
 * Code is compatible with any OS. Make sure your Python version is at least 3.12.7 for predictable results.
 
