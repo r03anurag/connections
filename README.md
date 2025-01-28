@@ -13,9 +13,7 @@ over, and you will have to start another game. Hopefully, you enjoy this unique 
 # Getting Started
 
 ## Dependencies
-* You will need to run `pip install dask[complete]`. [Dask](https://docs.dask.org/en/stable/) is a Python library that facilitates efficient processing of large datasets (very helpful in this project!).
-* Run `pip install Flask` and `pip install Flask-CORS`; these are necessary for the backend server.
-* You will also need to run `pip install wikipedia` to install Wikipedia support for Python.
+* All necessary Python libraries are installed when starting the backend server (see [Running the code](##Running-the-code) section)
 * Make sure to install [node.js](https://nodejs.org/en/download/current).
 * Code is compatible with any OS. Make sure your Python version is at least 3.12.7 for predictable results.
 
@@ -26,10 +24,10 @@ over, and you will have to start another game. Hopefully, you enjoy this unique 
 * You will need TWO (2) terminal instances - one for the frontend, and one for the backend.
 * Backend:
     * Navigate to `connections/` directory, and open a terminal.
-    * Type `flask run`.
+    * Type `flask run`. (this will install all Python dependencies)
 * Frontend:
     * Navigate to `connections/connections-wikipedia` directory, and open another terminal.
-        1. Type `npm install`. 
+        1. Type `npm install` (only if it is the first time running the code).
         2. Type `npm run dev` to run the server locally. 
             * (OPTIONAL) If you want to build this app for production, additionally run the command `npm run build`.
         3. Copy paste the url containing "localhost" (should be displayed in the terminal) into
