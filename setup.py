@@ -272,14 +272,14 @@ Main function that runs all procedures. Call this.
 def main_setup(archive: bool = False):
     # read the dataset as a dask df
     # (https://www.kaggle.com/datasets/jjinho/wikipedia-20230701/data?select=wiki_2023_index.parquet)
-    df = dask.dataframe.read_parquet('wiki_2023_index.parquet/wiki_2023_index.parquet',
-                                     columns=['id','title','categories'])
+    '''df = dask.dataframe.read_parquet('wiki_2023_index.parquet/wiki_2023_index.parquet',
+                                     columns=['id','title','categories'])'''
     final_game_board = None
     if archive:
         gboard = from_archive()
         final_game_board = prepare_game(gboard)
     else:
-        invidxs = get_inverted_index(df=df)
+        invidxs = get_inverted_index(df=None)
         gboard, ccs = get_articles_and_categories(dfs=invidxs)
         gboard = assign_group_difficulty(board=gboard, counts=ccs)
         archive_puzzle(gboard)

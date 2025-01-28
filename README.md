@@ -21,8 +21,6 @@ over, and you will have to start another game. Hopefully, you enjoy this unique 
 
 ## Downloading code (follow these steps in order)
 1. Download the code from this repository as-is. DO NOT REMOVE OR DELETE ANY FILES. 
-2. Visit this Kaggle [link](https://www.kaggle.com/datasets/jjinho/wikipedia-20230701/data?select=wiki_2023_index.parquet), 
-and download "wiki_2023_index.parquet". Then, move it to the directory of the same name (`wiki_2023_index.parquet`).
 
 ## Running the code
 * You will need TWO (2) terminal instances - one for the frontend, and one for the backend.
@@ -40,7 +38,10 @@ and download "wiki_2023_index.parquet". Then, move it to the directory of the sa
 * Anurag Renduchintala.
 
 # Versions
-* 1/27/2025 - Initial release.
+* 1/28/2025
+    * No need to download the dataset. 
+* 1/27/2025
+    * Initial release.
 
 # Acknowledgements
 * Dataset from Kaggle; [link](https://www.kaggle.com/datasets/jjinho/wikipedia-20230701/data?select=wiki_2023_index.parquet).
