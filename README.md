@@ -37,6 +37,7 @@ over, and you will have to start another game. Hopefully, you enjoy this unique 
 
 # Versions
 * 1/28/2025
+    * No need to manually `pip install` Python packages.
     * No need to download the dataset. 
 * 1/27/2025
     * Initial release.
