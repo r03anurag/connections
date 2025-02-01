@@ -36,6 +36,8 @@ over, and you will have to start another game. Hopefully, you enjoy this unique 
 * Anurag Renduchintala.
 
 # Versions
+* 2/1/2025
+    * Minor function signature change. Behavior is unaffected.
 * 1/28/2025
     * No need to manually `pip install` Python packages.
     * No need to download the dataset. 

@@ -221,7 +221,7 @@ Also shuffles the board.
 
 Inputs: outputs from get_articles_and_categories()
 '''
-def assign_group_difficulty(board: list, counts: list):
+def assign_group_difficulty(board: list, counts: dict):
     print("Assigning difficulty...")
     final_board = board.copy()
     final_board = sorted(final_board, key= lambda item: counts[item['category']], reverse=True)
