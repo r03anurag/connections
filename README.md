@@ -39,6 +39,7 @@ over, and you will have to start another game. Hopefully, you enjoy this unique 
 * 2/1/2025
     * Minor function signature change. Behavior is unaffected.
     * Added requirements.txt file.
+    * Added note on UI.
 * 1/28/2025
     * No need to manually `pip install` Python packages.
     * No need to download the dataset. 

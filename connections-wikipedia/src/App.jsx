@@ -362,6 +362,7 @@ export default function ConnectionsGame() {
             <b>Save</b></button>
     <button className="utility" id="usubmit" hidden={count(clicked, true) != 4} onClick={handleSubmitClick} 
             style={{borderColor: "black"}}><b>Submit</b></button>
+    <p><b>Note: When requesting a new game, it may take upto 15 seconds to load.</b></p>
     </>
   )
 }
