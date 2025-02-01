@@ -1,0 +1,7 @@
+dask==2024.12.1
+dask-expr==1.1.21
+Flask==3.1.0
+Flask-Cors==5.0.0
+pandas==2.2.3
+pyarrow==18.1.0
+wikipedia==1.4.0

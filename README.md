@@ -13,7 +13,7 @@ over, and you will have to start another game. Hopefully, you enjoy this unique 
 # Getting Started
 
 ## Dependencies
-* All necessary Python libraries are installed when starting the backend server (see [Running the code](#running-the-code) section)
+* Run the command `pip install -r requirements.txt` to install Python libraries.
 * Make sure to install [node.js](https://nodejs.org/en/download/current).
 * Code is compatible with any OS. Make sure your Python version is at least 3.12.7 for predictable results.
 
@@ -24,7 +24,7 @@ over, and you will have to start another game. Hopefully, you enjoy this unique 
 * You will need TWO (2) terminal instances - one for the frontend, and one for the backend.
 * Backend:
     * Navigate to `connections/` directory, and open a terminal.
-    * Type `flask run`. (this will install all Python dependencies)
+    * Type `flask run`.
 * Frontend:
     * Navigate to `connections/connections-wikipedia` directory, and open another terminal.
         1. Type `npm install` (only if it is the first time running the code).
@@ -38,6 +38,7 @@ over, and you will have to start another game. Hopefully, you enjoy this unique 
 # Versions
 * 2/1/2025
     * Minor function signature change. Behavior is unaffected.
+    * Added requirements.txt file.
 * 1/28/2025
     * No need to manually `pip install` Python packages.
     * No need to download the dataset. 

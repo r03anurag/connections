@@ -11,14 +11,6 @@ from datetime import datetime as dt
 import csv
 
 '''
-Dependency installation
-'''
-def install_dependencies():
-    libs = ["flask-cors", "Flask", "dask[complete]", "wikipedia"]
-    for lib in libs:
-        os.system(f"pip install {lib}")
-
-'''
 return categories and their article ids - like an inverted index. Example Structure:
 {
     "category1": "1, 2, 3, ...",
@@ -282,7 +274,6 @@ def main_setup(archive: bool = False):
     # (https://www.kaggle.com/datasets/jjinho/wikipedia-20230701/data?select=wiki_2023_index.parquet)
     '''df = dask.dataframe.read_parquet('wiki_2023_index.parquet/wiki_2023_index.parquet',
                                      columns=['id','title','categories'])'''
-    install_dependencies()
     final_game_board = None
     if archive:
         gboard = from_archive()
